@@ -84,7 +84,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="lightBg">
+      {/* <div className="lightBg">
         <div className="container">
           <Advertising className="flexSpaceCenter">
             <AddLeft>
@@ -112,7 +112,7 @@ export default function Projects() {
             </AddRight>
           </Advertising>
         </div>
-      </div>
+      </div> */}
     </Wrapper>
   );
 }

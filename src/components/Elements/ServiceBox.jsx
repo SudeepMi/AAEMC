@@ -10,18 +10,13 @@ export default function ServiceBox({icon, title, subtitle}) {
   let getIcon;
 
   switch (icon) {
-    case "roller":
-      getIcon = <RollerIcon />;
+    case "plumbing":
+      getIcon = "https://as2.ftcdn.net/v2/jpg/02/20/20/41/1000_F_220204174_vfgB0Vo2i4MZ8Sv5hmtsx5IwcvrDCZox.jpg";
       break;
-    case "monitor":
-      getIcon = <MonitorIcon />;
+    case "electric":
+      getIcon = "https://as2.ftcdn.net/v2/jpg/04/57/40/47/1000_F_457404723_MxgdyTNPardSU6z6rLE0YQu5Y8Jl7G8q.jpg"
       break;
-    case "browser":
-      getIcon = <BrowserIcon />;
-      break;
-    case "printer":
-      getIcon = <PrinterIcon />;
-      break;
+    
     default:
       getIcon = <RollerIcon />;
       break;
@@ -30,7 +25,7 @@ export default function ServiceBox({icon, title, subtitle}) {
 
   return (
     <Wrapper className="flex flexColumn">
-      <IconStyle>{getIcon}</IconStyle>
+      <img src={getIcon} width={"100%"} />
       <TitleStyle className="font20 extraBold">{title}</TitleStyle>
       <SubtitleStyle className="font13">{subtitle}</SubtitleStyle>
     </Wrapper>

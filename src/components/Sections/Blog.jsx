@@ -8,7 +8,7 @@ import TestimonialSlider from "../Elements/TestimonialSlider";
 export default function Blog() {
   return (
     <Wrapper id="blog">
-      <div className="whiteBg">
+      {/* <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Blog Stories</h1>
@@ -95,7 +95,7 @@ export default function Blog() {
           </HeaderInfo>
           <TestimonialSlider />
         </div>
-      </div>
+      </div> */}
     </Wrapper>
   );
 }

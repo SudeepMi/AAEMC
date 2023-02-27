@@ -31,31 +31,29 @@ export default function Services() {
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="roller"
-                title="Graphic Design"
+                icon="plumbing"
+                title="Plumbing"
                 subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="monitor"
-                title="Web Design"
+                icon="electric"
+                title="Lighting and Electricity"
                 subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
               />
             </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
+            {/* <ServiceBoxWrapper>
               <ServiceBox
-                icon="browser"
-                title="Development"
+                icon="energy"
+                title="Energy"
                 subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
               />
-            </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
-            </ServiceBoxWrapper>
+            </ServiceBoxWrapper> */}
+          
           </ServiceBoxRow>
         </div>
-        <div className="lightBg">
+        {/* <div className="lightBg">
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
@@ -96,7 +94,7 @@ export default function Services() {
               </AddRight>
             </Advertising>
           </div>
-        </div>
+        </div> */}
       </div>
     </Wrapper>
   );
@@ -111,7 +109,7 @@ const ServiceBoxRow = styled.div`
   }
 `;
 const ServiceBoxWrapper = styled.div`
-  width: 20%;
+  width: 100%;
   margin-right: 5%;
   padding: 80px 0;
   @media (max-width: 860px) {
