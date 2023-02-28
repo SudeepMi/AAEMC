@@ -15,7 +15,10 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Akbar Ali Electromechanical Cont.
           </h1>
         </div>
-        <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
+        <CloseBtn
+          onClick={() => toggleSidebar(!sidebarOpen)}
+          className="animate pointer"
+        >
           <CloseIcon />
         </CloseBtn>
       </SidebarHeader>
@@ -108,12 +111,20 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
       </UlStyle>
       <UlStyle className="flexSpaceCenter">
         <li className="semiBold font15 pointer">
-          <a href="/" style={{ padding: "10px 30px 10px 0" }} className="whiteColor">
+          <a
+            href="/"
+            style={{ padding: "10px 30px 10px 0" }}
+            className="whiteColor"
+          >
             Log in
           </a>
         </li>
         <li className="semiBold font15 pointer flexCenter">
-          <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
+          <a
+            href="/"
+            className="radius8 lightBg"
+            style={{ padding: "10px 15px" }}
+          >
             Get Started
           </a>
         </li>
@@ -130,6 +141,9 @@ const Wrapper = styled.nav`
   padding: 0 30px;
   right: ${(props) => (props.sidebarOpen ? "0px" : "-400px")};
   z-index: 9999;
+  @media screen and (max-width: 400px) {
+    width: 100%;
+  }
 `;
 const SidebarHeader = styled.div`
   padding: 20px 0;
