@@ -12,9 +12,14 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Electromechanical Contractor.</h1>
+          <h1 className="extraBold font60">
+            We are Electromechanical Contractor.
+          </h1>
           <HeaderP className="font13 semiBold">
-          Since its establishment in 2022, Akbar Ali Electromechanical Cont. (AAEC) has expanded and flourished, becoming a reputable organization with MEP experience in encompassing MEP Construction in residential, commercial, industrial, and infrastructure projects.
+            Since its establishment in 2015, Akbar Ali Electromechanical Cont.
+            (AAEC) has expanded and flourished, becoming a reputable
+            organization with MEP experience in encompassing MEP Construction in
+            residential, commercial, industrial, and infrastructure projects.
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Get Started" />
@@ -23,8 +28,15 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <video className="radius8" style={{zIndex: 9}} autoPlay="autoplay" preload="auto" muted loop={true}>
-          <source src={HeaderImage} type="video/mp4" />
+          <video
+            className="radius8"
+            style={{ zIndex: 9 }}
+            autoPlay="autoplay"
+            preload="auto"
+            muted
+            loop={true}
+          >
+            <source src={HeaderImage} type="video/mp4" />
           </video>
           <DotsWrapper>
             <Dots />
@@ -35,7 +47,6 @@ export default function Header() {
     </Wrapper>
   );
 }
-
 
 const Wrapper = styled.section`
   padding-top: 80px;
@@ -141,5 +152,3 @@ const DotsWrapper = styled.div`
     display: none;
   }
 `;
-
-
