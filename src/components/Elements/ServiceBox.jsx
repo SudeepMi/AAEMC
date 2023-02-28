@@ -11,10 +11,10 @@ export default function ServiceBox({icon, title, subtitle}) {
 
   switch (icon) {
     case "plumbing":
-      getIcon = "https://as2.ftcdn.net/v2/jpg/02/20/20/41/1000_F_220204174_vfgB0Vo2i4MZ8Sv5hmtsx5IwcvrDCZox.jpg";
+      getIcon = "";
       break;
     case "electric":
-      getIcon = "https://as2.ftcdn.net/v2/jpg/04/57/40/47/1000_F_457404723_MxgdyTNPardSU6z6rLE0YQu5Y8Jl7G8q.jpg"
+      getIcon = ""
       break;
     
     default:
