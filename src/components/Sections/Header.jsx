@@ -28,6 +28,7 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
+          {/* <img src={HeaderImage} alt="hero gif" /> */}
           <video
             className="radius8"
             style={{ zIndex: 9 }}
