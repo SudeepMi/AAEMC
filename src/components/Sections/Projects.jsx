@@ -24,7 +24,7 @@ export default function Projects() {
               <ProjectBox
                 img={"https://as2.ftcdn.net/v2/jpg/02/20/20/41/1000_F_220204174_vfgB0Vo2i4MZ8Sv5hmtsx5IwcvrDCZox.jpg"}
                 title="Plumbing"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
             </div>
@@ -32,7 +32,7 @@ export default function Projects() {
               <ProjectBox
                 img={"https://as2.ftcdn.net/v2/jpg/04/57/40/47/1000_F_457404723_MxgdyTNPardSU6z6rLE0YQu5Y8Jl7G8q.jpg"}
                 title="Lighting and Electric"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
             </div>
@@ -43,7 +43,7 @@ export default function Projects() {
               <ProjectBox
                 img={"https://as2.ftcdn.net/v2/jpg/01/93/97/19/1000_F_193971927_GQ98AN3c66qu2NmB8eij58rqEwxlaxIh.jpg"}
                 title="Ductman & Insulator"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
             </div>
@@ -51,7 +51,31 @@ export default function Projects() {
               <ProjectBox
                 img={"https://as2.ftcdn.net/v2/jpg/00/81/89/57/1000_F_81895775_3lTXjWKjZtw4kx0kGpOrF33UmpQ6q50j.jpg"}
                 title="Building Construction"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                action={() => alert("clicked")}
+              />
+            </div>
+            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <ProjectBox
+                img={"https://www.magnatechllc.com/images/pipeline.png"}
+                title="Water and gas pipeline"
+                // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                action={() => alert("clicked")}
+              />
+            </div>
+            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <ProjectBox
+                img={"https://m.economictimes.com/thumb/height-450,width-600,imgsize-170992,msid-73851491/gas-agencies.jpg"}
+                title="Pipeline Fabrication"
+                // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                action={() => alert("clicked")}
+              />
+            </div>
+            <div className="col-xs-10 col-sm-6 col-md-6 col-lg-6">
+              <ProjectBox
+                img={"https://www.tientai.com.cn/tthc201811286207/uploadfiles/2019/02/20190223094250759.jpg"}
+                title="Ship Welding"
+                // text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 action={() => alert("clicked")}
               />
             </div>
